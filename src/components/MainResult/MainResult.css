@@ -1,0 +1,13 @@
+.mainResultSection {
+  padding-bottom: 17px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.176);
+}
+.iconLabel {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 7px;
+}
+.iconLabel > span {
+  margin-right: 5px;
+  padding-top: 5px;
+}

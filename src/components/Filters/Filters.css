@@ -1,0 +1,7 @@
+.selectFilters {
+  display: flex;
+}
+.selectFilter {
+  margin: 3px;
+  min-width: 15vw;
+}

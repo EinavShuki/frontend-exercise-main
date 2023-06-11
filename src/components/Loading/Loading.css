@@ -1,0 +1,52 @@
+.loading_div {
+  display: inline-flex;
+  flex-direction: column;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+}
+.dot-windmill {
+  position: relative;
+  top: -40px;
+  width: 30px;
+  height: 30px;
+  border-radius: 60px;
+  background-color: #9880ff;
+  color: #9880ff;
+  transform-origin: 5px 15px;
+  animation: dot-windmill 1.5s infinite linear;
+}
+.dot-windmill::before,
+.dot-windmill::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+}
+.dot-windmill::before {
+  left: -28.66254px;
+  top: 35px;
+  width: 30px;
+  height: 30px;
+  border-radius: 60px;
+  background-color: #9880ff;
+  color: #9880ff;
+}
+.dot-windmill::after {
+  left: 28.66254px;
+  top: 35px;
+  width: 30px;
+  height: 30px;
+  border-radius: 60px;
+  background-color: #9880ff;
+  color: #9880ff;
+}
+
+@keyframes dot-windmill {
+  0% {
+    transform: rotateZ(0deg) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: rotateZ(720deg) translate3d(0, 0, 0);
+  }
+}

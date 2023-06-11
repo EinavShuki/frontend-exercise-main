@@ -1,0 +1,10 @@
+.card {
+  margin-bottom: 0.5rem;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.105);
+  border-radius: 3px;
+}
+.card:hover {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.2);
+}

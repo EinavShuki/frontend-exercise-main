@@ -1,0 +1,13 @@
+.chip {
+  display: inline-flex;
+  align-items: center;
+  margin: 5px;
+  padding: 6px 15px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+  font-size: 11px;
+}
+.chipIcon {
+  margin-right: 5px;
+  padding-top: 5px;
+}

@@ -1,0 +1,25 @@
+.resultItem {
+  margin-bottom: 0.3rem;
+  padding: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.105);
+  border-radius: 3px;
+  min-height: 10vh;
+  cursor: pointer;
+}
+
+.resultItem:hover,
+.selected {
+  border-width: 4px;
+  border: #2684ff;
+  border-color: #2684ff;
+  box-shadow: 0 0 0 1px #2684ff;
+}
+
+.resultItemTime > span {
+  margin-right: 5px;
+  padding-top: 5px;
+}
+.resultItem.children {
+  color: resultItemTime;
+}
