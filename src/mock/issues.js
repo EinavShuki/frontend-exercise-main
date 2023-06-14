@@ -135,7 +135,7 @@ export function IssueRoutes() {
   });
 }
 
-function generateIssues() {
+export function generateIssues() {
   return [
     {
       id: "0_CodeHygiene_compass",

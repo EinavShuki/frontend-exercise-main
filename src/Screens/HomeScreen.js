@@ -50,21 +50,19 @@ function HomeScreen() {
                 itemsPerPage={ITEMS_PER_PAGE}
               />
               <div style={{ display: "flex", gap: "5px" }}>
-                {_.map(
-                  Array.from({
+                {Array.from(
+                  {
                     length: Math.ceil(_.size(items) / ITEMS_PER_PAGE),
-                  }),
-                  (_, index) => {
-                    return (
-                      <div
-                        key={index}
-                        className="pagination"
-                        onClick={() => setPage(index)}
-                      >
-                        {index + 1}
-                      </div>
-                    );
-                  }
+                  },
+                  (_, index) => (
+                    <div
+                      key={index}
+                      className="pagination"
+                      onClick={() => setPage(index)}
+                    >
+                      {index + 1}
+                    </div>
+                  )
                 )}
               </div>
             </Card>
